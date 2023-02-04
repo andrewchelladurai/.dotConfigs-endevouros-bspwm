@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#
+# Variable definitions and assignments
+#
+
+# Load Configuration variable file
+if [ -x ~/.dotConfigs/scripts/set-variables.sh ]; then 
+    . ~/.dotConfigs/scripts/set-variables.sh
+fi
+
+# Load bashrc file if it exists
+[[ -f ~/.bash_profile ]] && . ~/.bash_profile
+
+dunstify "~/.profile loaded."
+

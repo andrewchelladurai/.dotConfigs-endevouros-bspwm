@@ -66,7 +66,7 @@ sudo pacman -Syu --needed bluez bluez-utils blueman && sudo systemctl enable --n
 sudo pacman -Syu nvidia-inst && nvidia-inst && sudo systemctl reboot
 
 # Install commonly used applications from the main repo
-sudo pacman -Syu neovim sqlite wireguard-tools jdk-openjdk scrcpy onboard ncdu btop termdown kitty github-cli lazygit
+sudo pacman -Syu neovim sqlite wireguard-tools jdk-openjdk scrcpy onboard ncdu btop termdown kitty github-cli lazygit playerctl
 # No depdendencies since the dependent JDK version may not be the latest.
 sudo pacman -Syu --nodeps intellij-idea-community-edition
 # Install commonly used applications from the AUR repo

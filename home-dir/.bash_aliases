@@ -13,8 +13,8 @@
 alias upgradesys='yay -Syyu ; sudo pacman -Syyu ; sudo pacman -Qtdq | sudo pacman -Rns - ;'
 
 # This below is used spcifically in BSPWM
-alias activeMonitorLaptopScreen='~/.dotConfigs/scripts/activeMonitorLaptopScreen.sh && sleep 2 && bspc wm -r'
-alias activeMonitorExternalDisplay='~/.dotConfigs/scripts/activeMonitorExternalDisplay.sh && sleep 2 && bspc wm -r'
+alias activeMonitorLaptopScreen='~/.dotConfigs-endevouros-bspwm/scripts/activeMonitorLaptopScreen.sh && sleep 2 && bspc wm -r'
+alias activeMonitorExternalDisplay='~/.dotConfigs-endevouros-bspwm/scripts/activeMonitorExternalDisplay.sh && sleep 2 && bspc wm -r'
 
 # restart networkmanager service using system control
 alias restartNMW='sudo systemctl restart network-manager'

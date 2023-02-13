@@ -41,18 +41,8 @@ mkdir -p ~/Documents/Projects/{Mobile,Web,Desktop,Api}
 mkdir -p ~/Documents/Projects/Mobile/{Android,iOS}
 mkdir -p ~/.tools/sdk/{android,flutter,dart,go}
 
-# Download required Nerd fonts :
-# https://www.nerdfonts.com/font-downloads
+# Download required Nerd fonts https://www.nerdfonts.com/
 # https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts
-# and place it in ~/.local/share/fonts/
-#
-
-cd ~/.local/share/fonts/
-wget -c https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf
-wget -c https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf
-fc-cache -rv
-
-# If above method does not work, install the AUR package for both the fonts
 sudo pacman -Syu ttf-jetbrains-mono-nerd ttf-firacode-nerd 
 
 # Do a dist-upgrade to get recent core updates

@@ -40,6 +40,7 @@ mkdir -p ~/Documents/Media/{Audio,Video,Images}
 mkdir -p ~/Documents/Projects/{Mobile,Web,Desktop,Api}
 mkdir -p ~/Documents/Projects/Mobile/{Android,iOS}
 mkdir -p ~/.tools/sdk/{android,flutter,dart,go}
+mkdir -p ~/.local/share/{themes,icons}
 
 # Download required Nerd fonts https://www.nerdfonts.com/
 # https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts

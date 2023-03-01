@@ -16,6 +16,9 @@ alias upgradesys='yay -Syyu ; sudo pacman -Syyu ; sudo pacman -Qtdq | sudo pacma
 alias activeMonitorLaptopScreen='~/.dotConfigs-endevouros-bspwm/scripts/activeMonitorLaptopScreen.sh && sleep 2 && bspc wm -r'
 alias activeMonitorExternalDisplay='~/.dotConfigs-endevouros-bspwm/scripts/activeMonitorExternalDisplay.sh && sleep 2 && bspc wm -r'
 
+# Change to a random wallpaper
+alias changeWallP='feh --no-fehbg --bg-scale --randomize ~/Documents/Media/Images/wpapers/main_desktop/*'
+
 # restart networkmanager service using system control
 alias restartNMW='sudo systemctl restart network-manager'
 
